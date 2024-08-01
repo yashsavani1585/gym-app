@@ -1,0 +1,93 @@
+:root {
+    --lightgray: #D9D9D9;
+    --gray: #9c9c9c;
+    --orange: #f48915;
+    --darkGrey: #464D53;
+    --caloryCard: #656565;
+    --planCard: linear-gradient(210.41deg, #fa5042 1.14%, #ffa739 100.75%);
+    --appColor:  #3c3f45;
+  }
+
+.Testimonials{
+    padding: 0 2rem;
+    display: flex;
+    gap: 1rem;
+}
+
+.left-t{
+    display: flex;
+    flex: 1 1;
+    gap:2rem;
+    flex-direction: column;
+    text-transform: uppercase;
+    color: white;
+}
+
+.left-t>:nth-child(1){
+    color: var(--orange);
+    font-weight: bold;
+}
+
+.left-t>:nth-child(2){
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+.left-t>:nth-child(3){
+    color: white;
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+.left-t>:nth-child(4){
+    text-transform: none;
+    text-align: justify;
+    letter-spacing: 2px;
+    line-height: 40px;
+}
+.right-t{
+    flex: 1;
+    position: relative;
+}
+
+.right-t>img{
+    position: absolute;
+    width: 17rem;
+    height: 20rem;
+    object-fit: cover;
+    right: 8rem;
+    top: 2rem;
+}
+
+.right-t>:nth-child(1){
+    position: absolute;
+    width: 17rem;
+    height: 20rem;
+    border: 2px solid var(--orange);
+    background-color: transparent;
+    right: 9rem;
+    top: 0.9rem;
+}
+
+.right-t>:nth-child(2){
+    position: absolute;
+    width: 17rem;
+    height: 19rem;
+    right: 7rem;
+    top: 4rem;
+    background: var(--planCard);
+    
+}
+
+.arrow{
+    display: flex;
+    gap: 1rem;
+    position: absolute;
+    bottom: 1rem;
+    left: 3rem;
+}
+
+.arrow>img{
+    width: 1.5rem;
+    cursor: pointer;
+}
